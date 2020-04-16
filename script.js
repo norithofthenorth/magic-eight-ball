@@ -8,7 +8,7 @@ let randomNumber = Math.floor(math.random() * 8);
 
 let eightBall = ""
 
-switch (condition) {
+switch (randomNumber) {
     case 0: 
     eightBall = 'It is certain';
     break;
@@ -43,4 +43,4 @@ switch (condition) {
 
 }
 
-
+console.log(eightBall)
